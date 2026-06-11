@@ -15,7 +15,7 @@ public class WebConfig implements WebMvcConfigurer {
 		//.addResourceLocations("file:///C:/springWorkspace/product_images/");//로컬경로
 		
 		registry.addResourceHandler("/images/**","/audio/**")
-		.addResourceLocations("file:///usr/local/project/upload/"); // 서버 경로
+		.addResourceLocations("file:///usr/local/project/upload2/"); // 서버 경로
 //		.addResourceLocations("file:///C:/springBootWorkspace/upload/");//한개 절대경로에 여러 url 매핑 가능		
 	}
 	
